@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+gunicorn
+
+langchain
+langchain-core
+langchain-google-genai
+langchain-community
+
+Pillow
+python-multipart

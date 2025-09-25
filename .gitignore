@@ -1,6 +1,10 @@
-.env
-venv/
-/venv
-pycache/
+__pycache__
 *.pyc
-chroma_db/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.vscode/
+.idea/

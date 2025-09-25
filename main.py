@@ -7,6 +7,7 @@ from typing import Dict, Any, List, Optional
 from operator import itemgetter
 from PIL import Image
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
@@ -28,6 +29,14 @@ app = FastAPI(
     title="Ayurvedic Herb Platform AI Agents",
     description="An API for AI-powered analysis using RAG and other models.",
     version="2.5.0" 
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Or use ["http://localhost:8082"] for local dev only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # --- Agent 1: Herb Identification ---

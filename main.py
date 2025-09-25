@@ -32,7 +32,7 @@ class HerbIdentification(BaseModel):
     is_override_recommended: bool = Field(description="True if confidence is low or image is unclear, suggesting manual review.")
     override_reason: str = Field(description="Reason for recommending an override, e.g., 'Low confidence score' or 'Image quality is poor'.")
 
-vision_model = ChatGoogleGenerativeAI(model="gemini-pro-vision", temperature=0)
+vision_model = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0)
 identification_parser = JsonOutputParser(pydantic_object=HerbIdentification)
 identification_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are an expert Ayurvedic botanist. Your task is to identify the herb species and plant part from the user-provided image. Analyze the image carefully. Provide your identification along with a confidence score. If the image is blurry, unclear, or the confidence is below 0.85, recommend a manual override by the collector. Respond ONLY with the following JSON format: {format_instructions}"),
@@ -65,7 +65,7 @@ class AnomalyReport(BaseModel):
     anomaly_score: float
     reason: str
 
-reasoning_model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.2)
+reasoning_model = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.2)
 anomaly_parser = JsonOutputParser(pydantic_object=AnomalyReport)
 anomaly_prompt = ChatPromptTemplate.from_template("You are a meticulous quality control analyst for an Ayurvedic lab. Analyze the provided lab test results and detect any anomalies based on standard reference ranges. **Standard Reference Ranges:** Moisture Level: 10% - 14%, Active Compound A: 400 - 600 ppm, Heavy Metal (Lead): < 1.0 ppm, Pesticide Residue: < 0.05 ppm. **Analysis Task:** 1. Compare the user's data against these ranges. 2. If all values are within range, the status is 'Normal'. 3. If any value is outside, status is 'Anomaly Detected'. 4. Calculate an anomaly score from 0.0 to 1.0 based on deviations. 5. Provide a clear reason. **User's Lab Data:** Moisture Level: {moisture_level}%, Active Compound A: {active_compound_a_ppm} ppm, Heavy Metal (Lead): {heavy_metal_lead_ppm} ppm, Pesticide Residue: {pesticide_residue_ppm} ppm. Respond ONLY with the JSON format: {format_instructions}")
 anomaly_chain = anomaly_prompt | reasoning_model | anomaly_parser

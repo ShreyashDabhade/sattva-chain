@@ -13,14 +13,11 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# --- 1. Environment and API Setup ---
 load_dotenv()
 
-# Check for API Key
 if os.getenv("GOOGLE_API_KEY") is None:
     raise ValueError("GOOGLE_API_KEY not found in .env file. Please add it.")
 
-# Initialize the FastAPI app
 app = FastAPI(
     title="Ayurvedic Herb Platform AI Agents (Stateless)",
     description="A stateless API for AI-powered analysis and utility functions.",
@@ -28,8 +25,6 @@ app = FastAPI(
 )
 
 
-# --- 2. Agent 1: Herb Species Identification ---
-# This entire section remains unchanged as it was already stateless.
 class HerbIdentification(BaseModel):
     species: str = Field(description="The scientific or common name of the herb species identified.")
     part_identified: str = Field(description="The part of the plant identified, e.g., 'leaf', 'root', 'flower'.")
@@ -59,8 +54,6 @@ async def identify_herb(file: UploadFile = File(...)):
     except Exception as e: raise HTTPException(status_code=500, detail=f"Failed to process image with AI model: {str(e)}")
 
 
-# --- 3. Agent 2: Quality Test Anomaly Detection ---
-# This entire section also remains unchanged.
 class LabTestData(BaseModel):
     moisture_level: float = Field(..., example=12.5)
     active_compound_a_ppm: int = Field(..., example=450)
@@ -85,31 +78,21 @@ async def analyze_quality(data: LabTestData):
     except Exception as e: raise HTTPException(status_code=500, detail=f"Failed to process lab data with AI model: {str(e)}")
 
 
-# --- 4. Utility: Off-Chain Data Hashing ---
 class HashingPayload(BaseModel):
-    """Input model for the data to be hashed."""
     data: Dict[str, Any]
 
 @app.post("/utils/calculate-hash", tags=["Utilities"])
 async def calculate_hash(payload: HashingPayload):
-    """
-    Takes a JSON object, serializes it consistently,
-    and returns its Keccak-256 hash.
-    This hash is what you will store on the blockchain.
-    """
+
     try:
-        # Sort keys to ensure the JSON string is always the same for the same data
         data_string = json.dumps(payload.data, sort_keys=True)
-        
-        # Calculate Keccak-256 hash, which is what Solidity uses
+
         data_hash = hashlib.sha3_256(data_string.encode('utf-8')).hexdigest()
         
-        # Return the hash with a "0x" prefix for Ethereum compatibility
         return {"hash": "0x" + data_hash}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Could not calculate hash: {e}")
 
-# --- 5. Root Endpoint ---
 @app.get("/", tags=["General"])
 async def root():
     return {"message": "Welcome to the Ayurvedic Herb Platform AI Agent Server. Visit /docs for API documentation."}

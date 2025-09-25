@@ -24,9 +24,8 @@ app = FastAPI(
     version="1.2.0"
 )
 
-
 class HerbIdentification(BaseModel):
-    species: str = Field(description="The scientific or common name of the herb species identified.")
+    species: str = Field(description="The scientific of the herb species identified.")
     part_identified: str = Field(description="The part of the plant identified, e.g., 'leaf', 'root', 'flower'.")
     confidence: float = Field(description="The model's confidence in the identification, from 0.0 to 1.0.")
     is_override_recommended: bool = Field(description="True if confidence is low or image is unclear, suggesting manual review.")
@@ -68,6 +67,7 @@ class AnomalyReport(BaseModel):
 reasoning_model = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.2)
 anomaly_parser = JsonOutputParser(pydantic_object=AnomalyReport)
 anomaly_prompt = ChatPromptTemplate.from_template("You are a meticulous quality control analyst for an Ayurvedic lab. Analyze the provided lab test results and detect any anomalies based on standard reference ranges. **Standard Reference Ranges:** Moisture Level: 10% - 14%, Active Compound A: 400 - 600 ppm, Heavy Metal (Lead): < 1.0 ppm, Pesticide Residue: < 0.05 ppm. **Analysis Task:** 1. Compare the user's data against these ranges. 2. If all values are within range, the status is 'Normal'. 3. If any value is outside, status is 'Anomaly Detected'. 4. Calculate an anomaly score from 0.0 to 1.0 based on deviations. 5. Provide a clear reason. **User's Lab Data:** Moisture Level: {moisture_level}%, Active Compound A: {active_compound_a_ppm} ppm, Heavy Metal (Lead): {heavy_metal_lead_ppm} ppm, Pesticide Residue: {pesticide_residue_ppm} ppm. Respond ONLY with the JSON format: {format_instructions}")
+
 anomaly_chain = anomaly_prompt | reasoning_model | anomaly_parser
 
 @app.post("/agent/analyze-quality", response_model=AnomalyReport, tags=["AI Agents"])

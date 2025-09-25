@@ -8,6 +8,8 @@ from operator import itemgetter
 from PIL import Image
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Request
+
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
@@ -28,16 +30,20 @@ if os.getenv("HUGGINGFACEHUB_API_TOKEN") is None:
 app = FastAPI(
     title="Ayurvedic Herb Platform AI Agents",
     description="An API for AI-powered analysis using RAG and other models.",
-    version="2.5.0" 
+    version="2.6.0" 
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or use ["http://localhost:8082"] for local dev only
+    allow_origins=["*"], # Allows all origins
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["*"], # Allows all methods
+    allow_headers=["*"], # Allows all headers
 )
+
+@app.options("/{rest_of_path:path}")
+async def preflight_handler(request: Request):
+    return {}
 
 # --- Agent 1: Herb Identification ---
 class HerbIdentification(BaseModel):
@@ -215,7 +221,6 @@ def format_chat_history(chat_history: List[ChatHistory]):
     return "\n".join([f"{msg.role}: {msg.content}" for msg in chat_history])
 
 def chatbot_rag_chain(input_dict: dict):
- 
     retriever = get_retriever_from_json(input_dict["product_data"])
     
     if input_dict.get("chat_history"):
@@ -227,7 +232,8 @@ def chatbot_rag_chain(input_dict: dict):
     else:
         standalone_question = input_dict["question"]
         
-    docs = retriever.invoke(standalone_question)
+    # --- FIX: Use the more explicit .get_relevant_documents() method ---
+    docs = retriever.get_relevant_documents(standalone_question)
     context = "\n\n".join(doc.page_content for doc in docs)
     
     final_chain = qa_prompt | chat_model | StrOutputParser()
@@ -235,7 +241,6 @@ def chatbot_rag_chain(input_dict: dict):
         "context": context,
         "question": standalone_question
     })
-    
     return answer
 
 @app.post("/agent/product-chatbot", response_model=ChatbotResponse, tags=["AI Agents"])

@@ -3,3 +3,4 @@ venv/
 /venv
 pycache/
 *.pyc
+chroma_db/

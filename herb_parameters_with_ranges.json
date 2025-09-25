@@ -1,0 +1,1302 @@
+[
+  {
+    "herb": "Tulsi",
+    "parameter": "Temperature_C",
+    "value": "20–35"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Humidity_%",
+    "value": "50–70"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Storage_Time_Days",
+    "value": "90–120"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "5–7"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.5"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_Moisture_%",
+    "value": "15–25"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "300–500"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "30–60"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "200–400"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.5–1.2"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Moisture_Content_%",
+    "value": "8–12"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Essential_Oil_%",
+    "value": "0.5–1.5"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Chlorophyll_Index",
+    "value": "25–40"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–5"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Tulsi",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Temperature_C",
+    "value": "20–35"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Humidity_%",
+    "value": "40–60"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Storage_Time_Days",
+    "value": "180–240"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "6–8"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.5"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_Moisture_%",
+    "value": "10–20"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "200–400"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "20–50"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "150–300"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.5–1.0"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Moisture_Content_%",
+    "value": "7–10"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Essential_Oil_%",
+    "value": "0.2–0.5"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Chlorophyll_Index",
+    "value": "20–35"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–4"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Ashwagandha",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Temperature_C",
+    "value": "20–30"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Humidity_%",
+    "value": "70–80"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Storage_Time_Days",
+    "value": "150–180"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "4–6"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_pH",
+    "value": "5.5–7.0"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_Moisture_%",
+    "value": "18–25"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "300–600"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "40–70"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "250–400"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.8–1.2"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–15"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Moisture_Content_%",
+    "value": "8–12"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Essential_Oil_%",
+    "value": "3–6"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Chlorophyll_Index",
+    "value": "20–30"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–3"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁵"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Haldi",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Temperature_C",
+    "value": "20–30"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Humidity_%",
+    "value": "60–80"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Storage_Time_Days",
+    "value": "60–90"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "4–5"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_pH",
+    "value": "5.5–7.5"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_Moisture_%",
+    "value": "20–30"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "250–500"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "30–60"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "200–350"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.7–1.2"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Moisture_Content_%",
+    "value": "8–14"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Essential_Oil_%",
+    "value": "0.3–0.6"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Chlorophyll_Index",
+    "value": "25–45"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–5"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Brahmi",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Temperature_C",
+    "value": "18–30"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Humidity_%",
+    "value": "50–70"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Storage_Time_Days",
+    "value": "30–60"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "5–7"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.5"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_Moisture_%",
+    "value": "15–25"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "400–600"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "35–70"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "200–400"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.6–1.0"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Moisture_Content_%",
+    "value": "10–15"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Essential_Oil_%",
+    "value": "1–2.5"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Chlorophyll_Index",
+    "value": "30–45"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–6"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Pudina",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Temperature_C",
+    "value": "15–28"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Humidity_%",
+    "value": "50–70"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Storage_Time_Days",
+    "value": "60–90"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "5–6"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.5"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_Moisture_%",
+    "value": "15–25"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "250–500"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "25–50"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "200–350"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.5–1.0"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Moisture_Content_%",
+    "value": "8–12"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Essential_Oil_%",
+    "value": "0.2–0.6"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Chlorophyll_Index",
+    "value": "25–40"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–5"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Dhaniya",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Temperature_C",
+    "value": "10–25"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Humidity_%",
+    "value": "40–60"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Storage_Time_Days",
+    "value": "60–90"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "4–6"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.0"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_Moisture_%",
+    "value": "12–20"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "200–400"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "30–60"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "150–300"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.5–1.0"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Moisture_Content_%",
+    "value": "8–12"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Essential_Oil_%",
+    "value": "0.1–0.4"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Chlorophyll_Index",
+    "value": "20–35"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–4"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Methi",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Temperature_C",
+    "value": "20–35"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Humidity_%",
+    "value": "50–70"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Storage_Time_Days",
+    "value": "30–60"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "6–8"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_pH",
+    "value": "6.0–7.5"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_Moisture_%",
+    "value": "15–25"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "250–500"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "30–60"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "200–400"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.6–1.2"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Moisture_Content_%",
+    "value": "10–14"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Essential_Oil_%",
+    "value": "1.5–3.0"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Chlorophyll_Index",
+    "value": "25–45"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–5"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Kadi Patta",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Temperature_C",
+    "value": "20–30"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Humidity_%",
+    "value": "70–80"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Storage_Time_Days",
+    "value": "90–120"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "4–6"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_pH",
+    "value": "5.5–7.0"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_Moisture_%",
+    "value": "18–28"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "300–600"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "40–70"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "250–450"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.8–1.2"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–15"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Moisture_Content_%",
+    "value": "8–12"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Essential_Oil_%",
+    "value": "1.0–3.0"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Chlorophyll_Index",
+    "value": "20–30"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–3"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁵"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Adrak",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Temperature_C",
+    "value": "21–32"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Humidity_%",
+    "value": "40–60"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Storage_Time_Days",
+    "value": "180–240"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Light_Exposure_hours_per_day",
+    "value": "7–9"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_pH",
+    "value": "6.0–8.0"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_Moisture_%",
+    "value": "10–20"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_Nitrogen_mgkg",
+    "value": "150–300"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_Phosphorus_mgkg",
+    "value": "20–40"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_Potassium_mgkg",
+    "value": "150–300"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Soil_Organic_Carbon_%",
+    "value": "0.4–0.8"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Heavy_Metal_Pb_ppm",
+    "value": "0–2"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Heavy_Metal_As_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Heavy_Metal_Hg_ppm",
+    "value": "0–0.05"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Heavy_Metal_Cd_ppm",
+    "value": "0–0.2"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Aflatoxin_Total_ppb",
+    "value": "0–10"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Pesticide_Residue_Total_ppm",
+    "value": "0–0.5"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Moisture_Content_%",
+    "value": "6–10"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Essential_Oil_%",
+    "value": "0.2–0.5"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Chlorophyll_Index",
+    "value": "20–35"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Leaf_Spots_Count",
+    "value": "0–3"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Discoloration_Index",
+    "value": "0–2"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Total_Bacterial_Count_CFU_g",
+    "value": "10³–10⁴"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Total_Fungal_Count_CFU_g",
+    "value": "10²–10³"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "E_coli_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "Salmonella_Present",
+    "value": "No"
+  },
+  {
+    "herb": "Neem",
+    "parameter": "DNA_Marker_Authenticity",
+    "value": "100%"
+  }
+]

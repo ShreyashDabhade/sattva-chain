@@ -7,6 +7,12 @@ langchain
 langchain-core
 langchain-google-genai
 langchain-community
+langchain-chroma
+langchain-huggingface 
 
 Pillow
 python-multipart
+unstructured
+markdown
+
+huggingface-hub

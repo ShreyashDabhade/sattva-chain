@@ -9,6 +9,7 @@ langchain-google-genai
 langchain-community
 langchain-chroma
 langchain-huggingface 
+langchain-text-splitters
 
 Pillow
 python-multipart

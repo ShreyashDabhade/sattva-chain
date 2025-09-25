@@ -35,7 +35,7 @@ print(f"Processed and created {len(langchain_documents)} documents from the JSON
 print("\nCreating embeddings using Hugging Face API and ingesting into ChromaDB...")
 
 hf_embeddings = HuggingFaceEndpointEmbeddings(
-    repo_id="sentence-transformers/all-MiniLM-L6-v2",
+    repo_id="BAAI/bge-small-en-v1.5",
     huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN"),
 )
 

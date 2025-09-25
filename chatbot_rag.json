@@ -1,0 +1,64 @@
+{
+  "coreProductInfo": {
+    "id": "String",
+    "name": "String",
+    "description": "String",
+    "price": 0.0,
+    "originalPrice": 0.0,
+    "category": "String",
+    "weight": "String",
+    "stockStatus": false,
+    "stockCount": 0,
+    "userRatings": {
+      "rating": 0.0,
+      "reviewsCount": 0
+    }
+  },
+  "originAndFarmerDetails": {
+    "originLocation": "String",
+    "farmerName": "String",
+    "farmName": "String",
+    "farmerExperience": "String"
+  },
+  "harvestAndBatchInfo": {
+    "batchId": "String",
+    "harvestDate": "String",
+    "harvestMethod": "String",
+    "weatherDuringHarvest": "String",
+    "soilHealth": 0
+  },
+  "qualitySafetyAndLabResults": {
+    "certifications": [
+      "String"
+    ],
+    "labResults": {
+      "moisture": "String",
+      "curcumin": "String",
+      "pesticides": "String",
+      "heavyMetals": "String",
+      "microbiology": "String"
+    }
+  },
+  "sustainabilityAndSocialImpact": {
+    "sustainabilityTag": "String",
+    "sustainabilityScore": 0,
+    "waterUsage": "String",
+    "carbonFootprint": "String",
+    "biodiversityIndex": "String",
+    "fairTradeImpact": "String",
+    "communityInvestment": "String",
+    "womenEmpowerment": "String"
+  },
+  "supplyChainAndTraceability": {
+    "verificationStatus": false,
+    "supplyChainStages": [
+      {
+        "stage": "String",
+        "date": "String",
+        "location": "String",
+        "actor": "String",
+        "verified": false
+      }
+    ]
+  }
+}

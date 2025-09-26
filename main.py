@@ -35,7 +35,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://labbackend-2d5l.onrender.com/"],
+    allow_origins=["https://labbackend-2d51.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

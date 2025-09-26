@@ -35,10 +35,10 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allows all origins
+    allow_origins=["https://labbackend-2d5l.onrender.com/"],
     allow_credentials=True,
-    allow_methods=["*"], # Allows all methods
-    allow_headers=["*"], # Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.options("/{rest_of_path:path}")
@@ -63,7 +63,7 @@ identification_chain = identification_prompt | vision_model | identification_par
 
 @app.post("/agent/identify-herb", response_model=HerbIdentification, tags=["AI Agents"])
 async def identify_herb(file: UploadFile = File(...)):
-    if not file.content_type.startswith("image/"):
+    if not file.content_type or not file.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="File provided is not an image.")
     contents = await file.read()
     image_base64 = base64.b64encode(contents).decode("utf-8")
@@ -232,7 +232,6 @@ def chatbot_rag_chain(input_dict: dict):
     else:
         standalone_question = input_dict["question"]
         
-    # --- FIX: Use the more explicit .get_relevant_documents() method ---
     docs = retriever.get_relevant_documents(standalone_question)
     context = "\n\n".join(doc.page_content for doc in docs)
     

@@ -33,14 +33,19 @@ app = FastAPI(
     version="2.6.0" 
 )
 
+# Allow your frontend domains
+origins = [
+    "http://localhost:8080",
+    "https://labbackend-2d5l.onrender.com",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://labbackend-2d5l.onrender.com"],
+    allow_origins=origins,   # or ["*"] for testing
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 @app.options("/{rest_of_path:path}")
 async def preflight_handler(request: Request):
     return {}
